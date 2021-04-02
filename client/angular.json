@@ -27,10 +27,12 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
+              "./node_modules/bootstrap/scss/bootstrap.scss",
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/styles.scss"
             ],
             "scripts": []
